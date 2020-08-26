@@ -15,6 +15,6 @@ Secara default atlantis akan berjalan pada port 4141.
 pada project ini dikarenakan atlantis di deploy pada local, maka agar atlantis dapat dipanggil dengan webhooks github maka port 4141 tersebut haruslah dapat diakses.
 maka digunakan ngroks untuk mempercepat proses port forwadding ke public hostname. 
 
-Pada repositori ini mencobba terraform menggunakan cloud provider aws. 
+Pada repositori ini mencoba terraform menggunakan cloud provider aws. 
 
-untuk melihat contoh atlantis dapat dilihat pada open pull request dan pada repository[berikut](https://github.com/asaadam/learn-iac/pull/4) 
+untuk melihat contoh atlantis dapat dilihat pada open pull request dan pada pull request [berikut](https://github.com/asaadam/learn-iac/pull/4) 
