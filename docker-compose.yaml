@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  atlantis:
+    image: runatlantis/atlantis
+    container_name: atlantis
+    env_file:
+      - .env
+    ports:
+      - "4141:4141"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
