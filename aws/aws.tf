@@ -13,7 +13,7 @@ provider "aws" {
   region  = "ap-southeast-1"
 }
 
-resource "aws_instance" "demo" {
-  ami           = "ami-09a4a9ce71ff3f20b"
-  instance_type = "t2.nano"
-}
+# resource "aws_instance" "demo" {
+#   ami           = "ami-09a4a9ce71ff3f20b"
+#   instance_type = "t2.nano"
+# }
